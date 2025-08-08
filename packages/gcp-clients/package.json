@@ -1,0 +1,35 @@
+{
+  "name": "@scholar-ai/gcp-clients",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "clean": "rm -rf dist",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint src --ext .ts,.tsx"
+  },
+  "dependencies": {
+    "@google-cloud/aiplatform": "^4.0.0",
+    "@google-cloud/workflows": "^3.0.0",
+    "@google-cloud/storage": "^7.0.0",
+    "@google-cloud/firestore": "^7.0.0",
+    "@scholar-ai/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "eslint": "^8.56.0",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  }
+} 

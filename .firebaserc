@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "scholar-ai-1-prod",
+    "staging": "scholar-ai-1-stage",
+    "production": "scholar-ai-1-prod"
+  }
+} 

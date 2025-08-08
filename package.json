@@ -1,0 +1,30 @@
+{
+  "name": "scholar-ai",
+  "version": "0.1.0",
+  "private": true,
+  "description": "An AI-powered research assistant for querying academic papers",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "clean": "turbo run clean",
+    "type-check": "turbo run type-check",
+    "deploy:staging": "turbo run build:stage && firebase use staging && firebase deploy",
+    "deploy:staging:functions": "firebase use staging && firebase deploy --only functions",
+    "deploy:staging:hosting": "turbo run build:stage && firebase use staging && firebase deploy --only hosting",
+    "deploy:production": "turbo run build:production && firebase use production && firebase deploy",
+    "deploy:production:functions": "firebase use production && firebase deploy --only functions",
+    "deploy:production:hosting": "turbo run build:production && firebase use production && firebase deploy --only hosting"
+  },
+  "devDependencies": {
+    "@turbo/gen": "^1.12.4",
+    "turbo": "^1.12.4",
+    "typescript": "^5.3.3"
+  },
+  "packageManager": "pnpm@8.15.4",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  }
+} 

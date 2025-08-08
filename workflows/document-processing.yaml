@@ -1,0 +1,59 @@
+main:
+  params: [args]
+  steps:
+    - extractText:
+        call: http.post
+        args:
+          url: ${args.extract_text_url}
+          body:
+            fileName: ${args.fileName}
+            filePath: ${args.filePath}
+            paperId: ${args.paperId}
+            userId: ${args.userId}
+        result: extractResult
+
+    - chunkDocument:
+        call: http.post
+        args:
+          url: ${args.chunk_document_url}
+          body:
+            text: ${extractResult.body.text}
+            paperId: ${args.paperId}
+            chunkSize: 1000
+            overlap: 200
+        result: chunkResult
+
+    - ingestToVertexAI:
+        call: http.post
+        args:
+          url: ${args.vertex_ai_url}
+          body:
+            chunks: ${chunkResult.body.chunks}
+            paperId: ${args.paperId}
+            userId: ${args.userId}
+            metadata:
+              title: ${args.fileName}
+              source: "user_upload"
+              uploadedAt: ${sys.now()}
+        result: ingestResult
+
+    - updatePaperStatus:
+        call: http.post
+        args:
+          url: ${args.firestore_url}
+          body:
+            paperId: ${args.paperId}
+            status: "processed"
+            processedAt: ${sys.now()}
+            chunksCount: ${len(chunkResult.body.chunks)}
+            vertexAIIngested: ${ingestResult.body.success}
+        result: updateResult
+
+    - returnResult:
+        return:
+          paperId: ${args.paperId}
+          status: "completed"
+          extractResult: ${extractResult}
+          chunkResult: ${chunkResult}
+          ingestResult: ${ingestResult}
+          updateResult: ${updateResult} 
