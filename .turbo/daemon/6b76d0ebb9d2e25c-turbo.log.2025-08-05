@@ -1,0 +1,433 @@
+2025-08-05T08:08:56.303425Z  WARN daemon_server: turborepo_lib::commands::daemon: daemon already running
+2025-08-05T08:08:56.311414Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon"), AnchoredSystemPathBuf(".turbo\\cookies\\.turbo-cookie"), AnchoredSystemPathBuf(".turbo"), AnchoredSystemPathBuf(".turbo\\cookies"), AnchoredSystemPathBuf(".turbo\\cookies\\1.cookie")}
+2025-08-05T08:08:56.311531Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T08:08:56.510574Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\6b76d0ebb9d2e25c-turbo.log.2025-08-05")}
+2025-08-05T08:08:56.510619Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T08:08:56.703804Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies"), AnchoredSystemPathBuf(".turbo\\cookies\\2.cookie")}
+2025-08-05T08:08:56.703837Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T08:08:56.811208Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies"), AnchoredSystemPathBuf(".turbo\\cookies\\3.cookie"), AnchoredSystemPathBuf(".turbo\\cookies\\4.cookie")}
+2025-08-05T08:08:56.811352Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T08:08:57.412859Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\6b76d0ebb9d2e25c-turbo.log.2025-08-05")}
+2025-08-05T08:08:57.412882Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T08:08:59.010432Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies")}
+2025-08-05T08:08:59.010513Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T08:09:43.601467Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\src\\main.tsx")}
+2025-08-05T08:09:43.601503Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@scholar-ai/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-08-05T08:09:43.798459Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\src\\main.tsx")}
+2025-08-05T08:09:43.798480Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@scholar-ai/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-08-05T08:09:43.798520Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-08-05T08:09:53.503008Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\6b76d0ebb9d2e25c-turbo.log.2025-08-05")}
+2025-08-05T08:09:53.503049Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T08:10:08.514741Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\6b76d0ebb9d2e25c-turbo.log.2025-08-05")}
+2025-08-05T08:10:08.514829Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T08:12:52.312251Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies\\5.cookie")}
+2025-08-05T08:12:52.312307Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T08:12:52.703616Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies")}
+2025-08-05T08:12:52.703633Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T08:12:52.809633Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies"), AnchoredSystemPathBuf(".turbo\\cookies\\6.cookie"), AnchoredSystemPathBuf(".turbo\\cookies\\7.cookie")}
+2025-08-05T08:12:52.809707Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T08:13:13.417236Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\src\\types"), AnchoredSystemPathBuf("apps\\web\\src\\types\\trpc.ts")}
+2025-08-05T08:13:13.417271Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@scholar-ai/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-08-05T08:13:13.572112Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\src"), AnchoredSystemPathBuf("apps\\web\\src\\types")}
+2025-08-05T08:13:13.572144Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@scholar-ai/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-08-05T08:13:13.572214Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-08-05T08:13:16.803046Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\src\\types\\trpc.ts")}
+2025-08-05T08:13:16.803099Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@scholar-ai/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-08-05T08:13:31.712357Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\src\\main.tsx")}
+2025-08-05T08:13:31.712401Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@scholar-ai/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-08-05T08:14:33.503781Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\6b76d0ebb9d2e25c-turbo.log.2025-08-05")}
+2025-08-05T08:14:33.503854Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T08:14:40.605718Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\6b76d0ebb9d2e25c-turbo.log.2025-08-05")}
+2025-08-05T08:14:40.605739Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T08:15:26.209649Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\src\\types\\trpc.ts")}
+2025-08-05T08:15:26.209681Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@scholar-ai/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-08-05T08:15:38.004503Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\src\\main.tsx")}
+2025-08-05T08:15:38.004566Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@scholar-ai/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-08-05T08:15:59.412494Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\vite.config.ts.timestamp-1754381759397-a8531ca71d826.mjs")}
+2025-08-05T08:15:59.412589Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@scholar-ai/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-08-05T08:15:59.640755Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-08-05T08:15:59.641473Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web"), AnchoredSystemPathBuf("apps\\web\\vite.config.ts.timestamp-1754381759397-a8531ca71d826.mjs")}
+2025-08-05T08:15:59.641516Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@scholar-ai/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-08-05T08:15:59.641609Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-08-05T08:16:04.704821Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\dist")}
+2025-08-05T08:16:04.704864Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@scholar-ai/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-08-05T08:16:04.937985Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-08-05T08:19:13.513320Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\6b76d0ebb9d2e25c-turbo.log.2025-08-05")}
+2025-08-05T08:19:13.513369Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T08:19:20.911886Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\6b76d0ebb9d2e25c-turbo.log.2025-08-05")}
+2025-08-05T08:19:20.911915Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T08:22:21.308378Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\6b76d0ebb9d2e25c-turbo.log.2025-08-05")}
+2025-08-05T08:22:21.308428Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T08:22:41.702675Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies\\8.cookie")}
+2025-08-05T08:22:41.702698Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T08:22:41.910367Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies"), AnchoredSystemPathBuf(".turbo\\cookies\\9.cookie")}
+2025-08-05T08:22:41.910383Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T08:22:42.001711Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies\\10.cookie"), AnchoredSystemPathBuf(".turbo\\cookies")}
+2025-08-05T08:22:42.001735Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T08:23:47.412429Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\src\\main.tsx")}
+2025-08-05T08:23:47.412475Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@scholar-ai/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-08-05T08:23:53.506879Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\6b76d0ebb9d2e25c-turbo.log.2025-08-05")}
+2025-08-05T08:23:53.506924Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T08:24:01.117048Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\src\\components\\query\\QueryInterface.tsx")}
+2025-08-05T08:24:01.117074Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@scholar-ai/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-08-05T08:24:05.111921Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\6b76d0ebb9d2e25c-turbo.log.2025-08-05")}
+2025-08-05T08:24:05.111966Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T08:24:09.212909Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\package.json")}
+2025-08-05T08:24:09.212950Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@scholar-ai/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-08-05T08:24:18.904535Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies\\11.cookie")}
+2025-08-05T08:24:18.904574Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T08:24:19.101333Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies")}
+2025-08-05T08:24:19.101347Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T08:24:19.213093Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies\\13.cookie"), AnchoredSystemPathBuf(".turbo\\cookies\\12.cookie"), AnchoredSystemPathBuf(".turbo\\cookies")}
+2025-08-05T08:24:19.213124Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T08:24:21.504946Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web"), AnchoredSystemPathBuf("apps\\web\\vite.config.ts.timestamp-1754382261400-34990c272a955.mjs")}
+2025-08-05T08:24:21.505304Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@scholar-ai/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-08-05T08:24:21.595738Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-08-05T08:24:25.706335Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\dist")}
+2025-08-05T08:24:25.706419Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@scholar-ai/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-08-05T08:24:25.974509Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-08-05T08:24:25.974863Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies\\14.cookie"), AnchoredSystemPathBuf("apps\\web\\dist")}
+2025-08-05T08:24:25.974891Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@scholar-ai/web"), path: AnchoredSystemPathBuf("apps\\web") }, WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T08:24:25.974954Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-08-05T08:24:26.006924Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies")}
+2025-08-05T08:24:26.006966Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T08:24:32.702907Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-08-05T08:24:32.702928Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-08-05T08:24:35.410883Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-08-05T08:24:35.410935Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-08-05T09:35:32.917684Z  WARN daemon_server: turborepo_lib::commands::daemon: daemon already running
+2025-08-05T09:35:32.961322Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies\\.turbo-cookie"), AnchoredSystemPathBuf(".turbo\\cookies\\1.cookie"), AnchoredSystemPathBuf(".turbo"), AnchoredSystemPathBuf(".turbo\\cookies")}
+2025-08-05T09:35:32.962172Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T09:35:33.560740Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies\\2.cookie"), AnchoredSystemPathBuf(".turbo\\cookies"), AnchoredSystemPathBuf(".turbo\\cookies\\3.cookie")}
+2025-08-05T09:35:33.560780Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T09:35:33.659354Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies\\5.cookie"), AnchoredSystemPathBuf(".turbo\\cookies"), AnchoredSystemPathBuf(".turbo\\cookies\\4.cookie")}
+2025-08-05T09:35:33.659400Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T09:35:33.964563Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\6b76d0ebb9d2e25c-turbo.log.2025-08-05")}
+2025-08-05T09:35:33.964686Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T09:35:37.961164Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-08-05T09:35:37.961181Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-08-05T09:35:39.658756Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-08-05T09:35:39.658804Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-08-05T09:35:44.759266Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-08-05T09:35:44.759343Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-08-05T09:36:42.767706Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("docs\\rag-guide.md")}
+2025-08-05T09:36:42.767727Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T09:36:43.470125Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("docs")}
+2025-08-05T09:36:43.470171Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T09:37:05.371688Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\6b76d0ebb9d2e25c-turbo.log.2025-08-05")}
+2025-08-05T09:37:05.371749Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T09:37:12.758623Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\6b76d0ebb9d2e25c-turbo.log.2025-08-05")}
+2025-08-05T09:37:12.758647Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T09:39:26.867186Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-08-05T09:39:26.867261Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-08-05T09:40:45.472913Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("_tmp_22880_07eb801304250f52dd120734dbf5f81a"), AnchoredSystemPathBuf("")}
+2025-08-05T09:40:45.472956Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T09:40:46.059043Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("node_modules")}
+2025-08-05T09:40:46.059060Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T09:40:46.168685Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("node_modules")}
+2025-08-05T09:40:46.168702Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T09:40:46.565851Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\shared\\node_modules"), AnchoredSystemPathBuf("node_modules"), AnchoredSystemPathBuf("packages\\gcp-clients\\node_modules"), AnchoredSystemPathBuf("apps\\web\\node_modules"), AnchoredSystemPathBuf("functions\\node_modules")}
+2025-08-05T09:40:46.565981Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@scholar-ai/gcp-clients"), path: AnchoredSystemPathBuf("packages\\gcp-clients") }, WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }, WorkspacePackage { name: Other("@scholar-ai/web"), path: AnchoredSystemPathBuf("apps\\web") }, WorkspacePackage { name: Other("functions"), path: AnchoredSystemPathBuf("functions") }, WorkspacePackage { name: Other("@scholar-ai/shared"), path: AnchoredSystemPathBuf("packages\\shared") }}))
+2025-08-05T09:40:47.307062Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\node_modules"), AnchoredSystemPathBuf("functions\\node_modules"), AnchoredSystemPathBuf("packages\\gcp-clients\\node_modules"), AnchoredSystemPathBuf("packages\\shared\\node_modules"), AnchoredSystemPathBuf("node_modules")}
+2025-08-05T09:40:47.307081Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("functions"), path: AnchoredSystemPathBuf("functions") }, WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }, WorkspacePackage { name: Other("@scholar-ai/shared"), path: AnchoredSystemPathBuf("packages\\shared") }, WorkspacePackage { name: Other("@scholar-ai/gcp-clients"), path: AnchoredSystemPathBuf("packages\\gcp-clients") }, WorkspacePackage { name: Other("@scholar-ai/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-08-05T09:40:47.307165Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-08-05T09:40:47.307198Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-08-05T09:40:47.307218Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-08-05T09:40:47.307244Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-08-05T09:41:00.561627Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("functions\\lib\\routers\\research.js"), AnchoredSystemPathBuf("functions\\lib\\routers\\rag.js"), AnchoredSystemPathBuf("functions\\lib\\routers\\topics.js"), AnchoredSystemPathBuf("functions\\lib\\routers\\paper.js"), AnchoredSystemPathBuf("functions\\lib\\simple-test.js"), AnchoredSystemPathBuf("functions\\lib\\triggers\\storage.js"), AnchoredSystemPathBuf("functions\\lib\\minimal.js"), AnchoredSystemPathBuf("functions\\lib\\context.js"), AnchoredSystemPathBuf("functions\\lib\\index.js"), AnchoredSystemPathBuf("functions\\lib\\routers\\index.js"), AnchoredSystemPathBuf("functions\\lib\\routers\\authors.js")}
+2025-08-05T09:41:00.561676Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("functions"), path: AnchoredSystemPathBuf("functions") }}))
+2025-08-05T09:41:00.774668Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-08-05T09:41:12.363057Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("functions\\package.json")}
+2025-08-05T09:41:12.363174Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("functions"), path: AnchoredSystemPathBuf("functions") }}))
+2025-08-05T09:41:20.159496Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("_tmp_15596_7160c92a903bf177f7d43f3403bc9fc8")}
+2025-08-05T09:41:20.159529Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T09:41:20.273468Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-08-05T09:41:20.273488Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-08-05T09:41:26.663649Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\gcp-clients\\node_modules"), AnchoredSystemPathBuf("apps\\web\\node_modules"), AnchoredSystemPathBuf("packages\\shared\\node_modules"), AnchoredSystemPathBuf("node_modules"), AnchoredSystemPathBuf("functions\\node_modules")}
+2025-08-05T09:41:26.663803Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@scholar-ai/shared"), path: AnchoredSystemPathBuf("packages\\shared") }, WorkspacePackage { name: Other("@scholar-ai/gcp-clients"), path: AnchoredSystemPathBuf("packages\\gcp-clients") }, WorkspacePackage { name: Other("@scholar-ai/web"), path: AnchoredSystemPathBuf("apps\\web") }, WorkspacePackage { name: Other("functions"), path: AnchoredSystemPathBuf("functions") }, WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T09:41:27.409239Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-08-05T09:41:27.409281Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-08-05T09:41:27.429222Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-08-05T09:41:27.429505Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-08-05T09:41:27.562271Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(""), AnchoredSystemPathBuf("pnpm-lock.yaml"), AnchoredSystemPathBuf("node_modules"), AnchoredSystemPathBuf("pnpm-lock.yaml.3645740984")}
+2025-08-05T09:41:27.562328Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T09:41:33.565318Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("functions\\lib\\minimal.js"), AnchoredSystemPathBuf("functions\\lib\\routers\\authors.js"), AnchoredSystemPathBuf("functions\\lib\\routers\\paper.js"), AnchoredSystemPathBuf("functions\\lib\\simple-test.js"), AnchoredSystemPathBuf("functions\\lib\\context.js"), AnchoredSystemPathBuf("functions\\lib\\index.js")}
+2025-08-05T09:41:33.565361Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("functions"), path: AnchoredSystemPathBuf("functions") }}))
+2025-08-05T09:41:33.758328Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-08-05T09:41:33.758481Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("functions\\lib\\routers\\index.js"), AnchoredSystemPathBuf("functions\\lib\\routers\\topics.js"), AnchoredSystemPathBuf("functions\\lib\\routers\\research.js"), AnchoredSystemPathBuf("functions\\lib\\triggers\\storage.js"), AnchoredSystemPathBuf("functions\\lib\\routers\\rag.js"), AnchoredSystemPathBuf("functions\\lib\\routers\\paper.js")}
+2025-08-05T09:41:33.758495Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("functions"), path: AnchoredSystemPathBuf("functions") }}))
+2025-08-05T09:41:33.758525Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-08-05T09:41:38.672580Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies\\6.cookie")}
+2025-08-05T09:41:38.672613Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T09:41:39.161696Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies")}
+2025-08-05T09:41:39.161856Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T09:41:39.257688Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies\\9.cookie"), AnchoredSystemPathBuf(".turbo\\cookies\\7.cookie"), AnchoredSystemPathBuf(".turbo\\cookies"), AnchoredSystemPathBuf(".turbo\\cookies\\8.cookie")}
+2025-08-05T09:41:39.257715Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T09:41:40.665193Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies")}
+2025-08-05T09:41:40.665233Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T09:41:40.959599Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\gcp-clients\\tsup.config.bundled_t0pvkqe36m.mjs"), AnchoredSystemPathBuf("packages\\gcp-clients")}
+2025-08-05T09:41:40.959644Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@scholar-ai/gcp-clients"), path: AnchoredSystemPathBuf("packages\\gcp-clients") }}))
+2025-08-05T09:41:41.300853Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-08-05T09:41:41.301042Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\gcp-clients\\tsup.config.bundled_t0pvkqe36m.mjs"), AnchoredSystemPathBuf("packages\\gcp-clients"), AnchoredSystemPathBuf("packages\\gcp-clients\\dist")}
+2025-08-05T09:41:41.301051Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@scholar-ai/gcp-clients"), path: AnchoredSystemPathBuf("packages\\gcp-clients") }}))
+2025-08-05T09:41:41.301071Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-08-05T09:41:41.569354Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\gcp-clients\\dist")}
+2025-08-05T09:41:41.569374Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@scholar-ai/gcp-clients"), path: AnchoredSystemPathBuf("packages\\gcp-clients") }}))
+2025-08-05T09:41:41.684787Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-08-05T09:41:45.364130Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\6b76d0ebb9d2e25c-turbo.log.2025-08-05")}
+2025-08-05T09:41:45.364247Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T09:41:47.159066Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\gcp-clients\\dist")}
+2025-08-05T09:41:47.159103Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@scholar-ai/gcp-clients"), path: AnchoredSystemPathBuf("packages\\gcp-clients") }}))
+2025-08-05T09:41:47.278521Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-08-05T09:41:47.365342Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies\\10.cookie")}
+2025-08-05T09:41:47.365378Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T09:41:51.359137Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies")}
+2025-08-05T09:41:51.359158Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T09:41:52.064574Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\6b76d0ebb9d2e25c-turbo.log.2025-08-05")}
+2025-08-05T09:41:52.064661Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T09:41:52.266045Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-08-05T09:41:52.266079Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-08-05T09:41:54.276006Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-08-05T09:41:54.276044Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-08-05T09:41:56.662034Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-08-05T09:41:56.662153Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-08-05T09:49:17.741116Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo"), AnchoredSystemPathBuf(".turbo\\cookies"), AnchoredSystemPathBuf(".turbo\\cookies\\.turbo-cookie")}
+2025-08-05T09:49:17.741174Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T09:49:17.840130Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies"), AnchoredSystemPathBuf(".turbo\\cookies\\1.cookie")}
+2025-08-05T09:49:17.840184Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T09:49:17.868792Z  WARN daemon_server: turborepo_lib::commands::daemon: daemon already running
+2025-08-05T09:49:18.336086Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies\\4.cookie"), AnchoredSystemPathBuf(".turbo\\cookies\\6.cookie"), AnchoredSystemPathBuf(".turbo\\cookies\\7.cookie"), AnchoredSystemPathBuf(".turbo\\cookies\\3.cookie"), AnchoredSystemPathBuf(".turbo\\cookies\\5.cookie"), AnchoredSystemPathBuf(".turbo\\cookies"), AnchoredSystemPathBuf(".turbo\\cookies\\2.cookie")}
+2025-08-05T09:49:18.336132Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T09:49:18.949503Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\6b76d0ebb9d2e25c-turbo.log.2025-08-05")}
+2025-08-05T09:49:18.949573Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T09:49:23.837849Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-08-05T09:49:23.837886Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-08-05T09:49:26.847313Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-08-05T09:49:26.847420Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-08-05T09:56:14.765468Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies\\.turbo-cookie"), AnchoredSystemPathBuf(".turbo\\cookies"), AnchoredSystemPathBuf(".turbo")}
+2025-08-05T09:56:14.765534Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T09:56:14.843039Z  WARN daemon_server: turborepo_lib::commands::daemon: daemon already running
+2025-08-05T09:56:14.867737Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies"), AnchoredSystemPathBuf(".turbo\\cookies\\1.cookie")}
+2025-08-05T09:56:14.867780Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T09:56:15.262395Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies\\2.cookie"), AnchoredSystemPathBuf(".turbo\\cookies\\3.cookie"), AnchoredSystemPathBuf(".turbo\\cookies")}
+2025-08-05T09:56:15.262463Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T09:56:15.373051Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies\\6.cookie"), AnchoredSystemPathBuf(".turbo\\cookies\\4.cookie"), AnchoredSystemPathBuf(".turbo\\cookies\\5.cookie"), AnchoredSystemPathBuf(".turbo\\cookies\\7.cookie"), AnchoredSystemPathBuf(".turbo\\cookies")}
+2025-08-05T09:56:15.373091Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T09:56:15.970347Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\6b76d0ebb9d2e25c-turbo.log.2025-08-05")}
+2025-08-05T09:56:15.970366Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T09:56:21.869031Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-08-05T09:56:21.869060Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-08-05T09:56:24.672355Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-08-05T09:56:24.672382Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-08-05T09:56:30.858223Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-08-05T09:56:30.858251Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-08-05T09:56:40.473885Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-08-05T09:56:40.473916Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-08-05T09:56:42.370691Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-08-05T09:56:42.370716Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-08-05T09:56:45.560273Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-08-05T09:56:45.560370Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-08-05T11:24:38.288603Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo"), AnchoredSystemPathBuf(".turbo\\cookies\\1.cookie"), AnchoredSystemPathBuf(".turbo\\cookies\\.turbo-cookie"), AnchoredSystemPathBuf(".turbo\\cookies")}
+2025-08-05T11:24:38.288672Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T11:24:38.321351Z  WARN daemon_server: turborepo_lib::commands::daemon: daemon already running
+2025-08-05T11:24:38.893977Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies")}
+2025-08-05T11:24:38.894049Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T11:24:38.988178Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies"), AnchoredSystemPathBuf(".turbo\\cookies\\2.cookie"), AnchoredSystemPathBuf(".turbo\\cookies\\3.cookie")}
+2025-08-05T11:24:38.988220Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T11:24:39.095243Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies\\5.cookie"), AnchoredSystemPathBuf(".turbo\\cookies\\4.cookie"), AnchoredSystemPathBuf(".turbo\\cookies")}
+2025-08-05T11:24:39.095288Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T11:24:39.188781Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies\\6.cookie")}
+2025-08-05T11:24:39.188821Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T11:24:39.294449Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("functions\\.turbo"), AnchoredSystemPathBuf("functions")}
+2025-08-05T11:24:39.294499Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("functions"), path: AnchoredSystemPathBuf("functions") }}))
+2025-08-05T11:24:39.766624Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("functions\\.turbo"), AnchoredSystemPathBuf(".turbo\\daemon\\6b76d0ebb9d2e25c-turbo.log.2025-08-05")}
+2025-08-05T11:24:39.766707Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("functions"), path: AnchoredSystemPathBuf("functions") }, WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T11:24:39.766872Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-08-05T11:24:40.298971Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies")}
+2025-08-05T11:24:40.299006Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T11:24:46.993720Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("functions\\lib\\rag-engine.js"), AnchoredSystemPathBuf("functions\\lib\\context.js")}
+2025-08-05T11:24:46.993763Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("functions"), path: AnchoredSystemPathBuf("functions") }}))
+2025-08-05T11:24:47.661229Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-08-05T11:24:47.661573Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("functions\\lib\\minimal.js"), AnchoredSystemPathBuf("functions\\lib\\routers\\authors.js"), AnchoredSystemPathBuf("functions\\lib\\routers\\index.js"), AnchoredSystemPathBuf("functions\\lib\\routers\\paper.js"), AnchoredSystemPathBuf("functions\\lib\\routers\\rag.js"), AnchoredSystemPathBuf("functions\\lib\\rag-engine.js"), AnchoredSystemPathBuf("functions\\lib\\routers\\topics.js"), AnchoredSystemPathBuf("functions\\lib\\simple-test.js"), AnchoredSystemPathBuf("functions\\lib\\triggers\\storage.js"), AnchoredSystemPathBuf("functions\\lib\\index.js"), AnchoredSystemPathBuf("functions\\lib\\routers\\research.js")}
+2025-08-05T11:24:47.661598Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("functions"), path: AnchoredSystemPathBuf("functions") }}))
+2025-08-05T11:24:47.661651Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-08-05T11:24:47.692795Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies\\7.cookie")}
+2025-08-05T11:24:47.692840Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T11:24:49.290971Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies")}
+2025-08-05T11:24:49.291009Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T11:26:05.289467Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-08-05T11:26:05.289505Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-08-05T11:26:14.799378Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("test-rag-local.js")}
+2025-08-05T11:26:14.799436Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T11:29:05.697907Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\6b76d0ebb9d2e25c-turbo.log.2025-08-05")}
+2025-08-05T11:29:05.698289Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T11:29:15.496271Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\6b76d0ebb9d2e25c-turbo.log.2025-08-05")}
+2025-08-05T11:29:15.496330Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T11:29:15.590803Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\6b76d0ebb9d2e25c-turbo.log.2025-08-05")}
+2025-08-05T11:29:15.590833Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T11:33:45.504471Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\6b76d0ebb9d2e25c-turbo.log.2025-08-05")}
+2025-08-05T11:33:45.507723Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T11:33:52.194328Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\6b76d0ebb9d2e25c-turbo.log.2025-08-05")}
+2025-08-05T11:33:52.194402Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T11:38:25.500444Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\6b76d0ebb9d2e25c-turbo.log.2025-08-05")}
+2025-08-05T11:38:25.500476Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T11:38:32.198465Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\6b76d0ebb9d2e25c-turbo.log.2025-08-05")}
+2025-08-05T11:38:32.198496Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T11:43:05.490552Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\6b76d0ebb9d2e25c-turbo.log.2025-08-05")}
+2025-08-05T11:43:05.490578Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T11:43:12.487315Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\6b76d0ebb9d2e25c-turbo.log.2025-08-05")}
+2025-08-05T11:43:12.487348Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T11:44:32.295818Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\vite.config.ts.timestamp-1754394272190-57552054c2ec3.mjs"), AnchoredSystemPathBuf("apps\\web")}
+2025-08-05T11:44:32.296197Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@scholar-ai/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-08-05T11:47:45.595497Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\6b76d0ebb9d2e25c-turbo.log.2025-08-05")}
+2025-08-05T11:47:45.595521Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T11:47:52.301138Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\6b76d0ebb9d2e25c-turbo.log.2025-08-05")}
+2025-08-05T11:47:52.301203Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T13:10:34.127334Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies\\.turbo-cookie"), AnchoredSystemPathBuf(".turbo"), AnchoredSystemPathBuf(".turbo\\cookies")}
+2025-08-05T13:10:34.127865Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T13:10:34.177073Z  WARN daemon_server: turborepo_lib::commands::daemon: daemon already running
+2025-08-05T13:10:34.229823Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies\\1.cookie"), AnchoredSystemPathBuf(".turbo\\cookies")}
+2025-08-05T13:10:34.229868Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T13:10:34.636697Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies\\2.cookie"), AnchoredSystemPathBuf(".turbo\\cookies"), AnchoredSystemPathBuf(".turbo\\cookies\\3.cookie")}
+2025-08-05T13:10:34.636802Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T13:10:34.726218Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies\\4.cookie"), AnchoredSystemPathBuf(".turbo\\cookies\\5.cookie"), AnchoredSystemPathBuf(".turbo\\cookies"), AnchoredSystemPathBuf(".turbo\\cookies\\6.cookie")}
+2025-08-05T13:10:34.726257Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T13:10:34.839871Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies\\7.cookie"), AnchoredSystemPathBuf(".turbo\\cookies")}
+2025-08-05T13:10:34.839916Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T13:10:35.226323Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\6b76d0ebb9d2e25c-turbo.log.2025-08-05")}
+2025-08-05T13:10:35.226369Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T13:10:38.137819Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-08-05T13:10:38.137838Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-08-05T13:10:40.138088Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-08-05T13:10:40.138132Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-08-05T13:10:42.631884Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-08-05T13:10:42.632002Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-08-05T13:11:07.536858Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\6b76d0ebb9d2e25c-turbo.log.2025-08-05")}
+2025-08-05T13:11:07.536897Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T13:11:14.236473Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\6b76d0ebb9d2e25c-turbo.log.2025-08-05")}
+2025-08-05T13:11:14.236512Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T13:12:33.025228Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies\\1.cookie"), AnchoredSystemPathBuf(".turbo"), AnchoredSystemPathBuf(".turbo\\cookies")}
+2025-08-05T13:12:33.025282Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T13:12:33.125735Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies\\.turbo-cookie")}
+2025-08-05T13:12:33.125765Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T13:12:33.204434Z  WARN daemon_server: turborepo_lib::commands::daemon: daemon already running
+2025-08-05T13:12:33.437020Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies")}
+2025-08-05T13:12:33.437046Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T13:12:33.532623Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies"), AnchoredSystemPathBuf(".turbo\\cookies\\2.cookie"), AnchoredSystemPathBuf(".turbo\\cookies\\3.cookie")}
+2025-08-05T13:12:33.532667Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T13:12:33.624991Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies\\4.cookie"), AnchoredSystemPathBuf(".turbo\\cookies"), AnchoredSystemPathBuf(".turbo\\cookies\\6.cookie"), AnchoredSystemPathBuf(".turbo\\cookies\\5.cookie")}
+2025-08-05T13:12:33.625105Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T13:12:33.732760Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies\\7.cookie")}
+2025-08-05T13:12:33.732798Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T13:12:34.236149Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\6b76d0ebb9d2e25c-turbo.log.2025-08-05")}
+2025-08-05T13:12:34.236173Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T13:12:37.937315Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies")}
+2025-08-05T13:12:37.937363Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T13:12:39.626889Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-08-05T13:12:39.626922Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-08-05T13:12:42.932032Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-08-05T13:12:42.932070Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-08-05T13:15:31.330298Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-08-05T13:15:31.330672Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-08-05T13:15:47.531162Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\6b76d0ebb9d2e25c-turbo.log.2025-08-05")}
+2025-08-05T13:15:47.531220Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T13:15:54.732980Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\6b76d0ebb9d2e25c-turbo.log.2025-08-05")}
+2025-08-05T13:15:54.733025Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T13:15:54.831324Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\6b76d0ebb9d2e25c-turbo.log.2025-08-05")}
+2025-08-05T13:15:54.831358Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T13:15:58.725878Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("functions\\lib\\index.js"), AnchoredSystemPathBuf("functions\\lib\\rag-engine.js"), AnchoredSystemPathBuf("functions\\lib\\context.js"), AnchoredSystemPathBuf("functions\\lib\\minimal.js"), AnchoredSystemPathBuf("functions\\lib\\simple-test.js")}
+2025-08-05T13:15:58.725925Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("functions"), path: AnchoredSystemPathBuf("functions") }}))
+2025-08-05T13:15:59.206856Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("functions\\lib\\routers\\topics.js"), AnchoredSystemPathBuf("functions\\lib\\routers\\paper.js"), AnchoredSystemPathBuf("functions\\lib\\triggers\\storage.js"), AnchoredSystemPathBuf("functions\\lib\\routers\\research.js"), AnchoredSystemPathBuf("functions\\lib\\routers\\authors.js"), AnchoredSystemPathBuf("functions\\lib\\routers\\index.js"), AnchoredSystemPathBuf("functions\\lib\\routers\\rag.js")}
+2025-08-05T13:15:59.206912Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("functions"), path: AnchoredSystemPathBuf("functions") }}))
+2025-08-05T13:15:59.207756Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-08-05T13:19:21.438216Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies\\8.cookie")}
+2025-08-05T13:19:21.438267Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T13:19:21.726852Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies")}
+2025-08-05T13:19:21.726888Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T13:19:21.838005Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies"), AnchoredSystemPathBuf(".turbo\\cookies\\10.cookie"), AnchoredSystemPathBuf(".turbo\\cookies\\9.cookie"), AnchoredSystemPathBuf(".turbo\\cookies\\11.cookie")}
+2025-08-05T13:19:21.838046Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T13:19:27.338232Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-08-05T13:19:27.338277Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-08-05T13:19:29.430935Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-08-05T13:19:29.431004Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-08-05T13:19:33.130485Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-08-05T13:19:33.130620Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-08-05T13:19:39.425060Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-08-05T13:19:39.425091Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-08-05T13:20:27.539385Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\6b76d0ebb9d2e25c-turbo.log.2025-08-05")}
+2025-08-05T13:20:27.539416Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T13:20:34.324471Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\6b76d0ebb9d2e25c-turbo.log.2025-08-05")}
+2025-08-05T13:20:34.324499Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T13:22:24.430223Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(""), AnchoredSystemPathBuf("_tmp_22272_4e8b7fc956be232a7c9df1142232eafe")}
+2025-08-05T13:22:24.430264Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T13:22:25.126077Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("node_modules")}
+2025-08-05T13:22:25.126093Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T13:22:25.229894Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("node_modules")}
+2025-08-05T13:22:25.229940Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T13:22:25.728167Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("node_modules"), AnchoredSystemPathBuf("packages\\gcp-clients\\node_modules"), AnchoredSystemPathBuf("apps\\web\\node_modules"), AnchoredSystemPathBuf("packages\\shared\\node_modules"), AnchoredSystemPathBuf("functions\\node_modules")}
+2025-08-05T13:22:25.728438Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("functions"), path: AnchoredSystemPathBuf("functions") }, WorkspacePackage { name: Other("@scholar-ai/shared"), path: AnchoredSystemPathBuf("packages\\shared") }, WorkspacePackage { name: Other("@scholar-ai/web"), path: AnchoredSystemPathBuf("apps\\web") }, WorkspacePackage { name: Other("@scholar-ai/gcp-clients"), path: AnchoredSystemPathBuf("packages\\gcp-clients") }, WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T13:22:26.536812Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-08-05T13:22:26.860349Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("node_modules")}
+2025-08-05T13:22:26.861029Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T13:23:34.128430Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("functions\\lib\\rag-engine.js"), AnchoredSystemPathBuf("functions\\lib\\minimal.js"), AnchoredSystemPathBuf("functions\\lib\\context.js"), AnchoredSystemPathBuf("functions\\lib\\routers\\paper.js"), AnchoredSystemPathBuf("functions\\lib\\simple-test.js"), AnchoredSystemPathBuf("functions\\lib\\index.js"), AnchoredSystemPathBuf("functions\\lib\\routers\\authors.js")}
+2025-08-05T13:23:34.128571Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("functions"), path: AnchoredSystemPathBuf("functions") }}))
+2025-08-05T13:23:34.405580Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-08-05T13:23:34.405729Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("functions\\lib\\routers\\index.js"), AnchoredSystemPathBuf("functions\\lib\\routers\\topics.js"), AnchoredSystemPathBuf("functions\\lib\\triggers\\storage.js"), AnchoredSystemPathBuf("functions\\lib\\routers\\rag.js"), AnchoredSystemPathBuf("functions\\lib\\routers\\research.js")}
+2025-08-05T13:23:34.405738Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("functions"), path: AnchoredSystemPathBuf("functions") }}))
+2025-08-05T13:23:34.405806Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-08-05T13:23:41.731667Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-08-05T13:23:41.731697Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-08-05T13:23:43.727893Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-08-05T13:23:43.727933Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-08-05T13:23:46.535156Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-08-05T13:23:46.535171Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-08-05T13:24:56.830174Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-08-05T13:24:56.830271Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-08-05T13:25:07.539255Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\6b76d0ebb9d2e25c-turbo.log.2025-08-05")}
+2025-08-05T13:25:07.539287Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T13:25:14.725297Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\6b76d0ebb9d2e25c-turbo.log.2025-08-05")}
+2025-08-05T13:25:14.725340Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T13:27:52.434012Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-08-05T13:27:52.434049Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-08-05T13:28:40.630694Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-08-05T13:28:40.630823Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-08-05T13:29:47.524696Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\6b76d0ebb9d2e25c-turbo.log.2025-08-05")}
+2025-08-05T13:29:47.524747Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T13:29:54.125051Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\6b76d0ebb9d2e25c-turbo.log.2025-08-05")}
+2025-08-05T13:29:54.125071Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T14:15:14.756513Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo"), AnchoredSystemPathBuf(".turbo\\cookies\\1.cookie"), AnchoredSystemPathBuf(".turbo\\cookies"), AnchoredSystemPathBuf(".turbo\\cookies\\.turbo-cookie")}
+2025-08-05T14:15:14.756833Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T14:15:14.827701Z  WARN daemon_server: turborepo_lib::commands::daemon: daemon already running
+2025-08-05T14:15:15.870400Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\6b76d0ebb9d2e25c-turbo.log.2025-08-05")}
+2025-08-05T14:15:15.870471Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T14:15:17.669504Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\shared\\tsup.config.bundled_7546t0ojl.mjs"), AnchoredSystemPathBuf("packages\\gcp-clients"), AnchoredSystemPathBuf("packages\\gcp-clients\\tsup.config.bundled_f6ji3yade6.mjs"), AnchoredSystemPathBuf("packages\\shared")}
+2025-08-05T14:15:17.669588Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@scholar-ai/gcp-clients"), path: AnchoredSystemPathBuf("packages\\gcp-clients") }, WorkspacePackage { name: Other("@scholar-ai/shared"), path: AnchoredSystemPathBuf("packages\\shared") }}))
+2025-08-05T14:15:18.845656Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\shared\\dist"), AnchoredSystemPathBuf("apps\\web\\vite.config.ts.timestamp-1754403318495-4661a57fa744e.mjs"), AnchoredSystemPathBuf("packages\\gcp-clients\\dist"), AnchoredSystemPathBuf("apps\\web")}
+2025-08-05T14:15:18.845704Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@scholar-ai/shared"), path: AnchoredSystemPathBuf("packages\\shared") }, WorkspacePackage { name: Other("@scholar-ai/gcp-clients"), path: AnchoredSystemPathBuf("packages\\gcp-clients") }, WorkspacePackage { name: Other("@scholar-ai/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-08-05T14:15:18.845820Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-08-05T14:15:18.845865Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-08-05T14:15:24.659392Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\shared\\dist")}
+2025-08-05T14:15:24.659443Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@scholar-ai/shared"), path: AnchoredSystemPathBuf("packages\\shared") }}))
+2025-08-05T14:15:25.310925Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-08-05T14:15:37.056629Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\gcp-clients\\dist")}
+2025-08-05T14:15:37.056663Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@scholar-ai/gcp-clients"), path: AnchoredSystemPathBuf("packages\\gcp-clients") }}))
+2025-08-05T14:15:37.156227Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-08-05T14:35:37.008238Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo"), AnchoredSystemPathBuf(".turbo\\cookies"), AnchoredSystemPathBuf(".turbo\\cookies\\.turbo-cookie"), AnchoredSystemPathBuf(".turbo\\cookies\\1.cookie")}
+2025-08-05T14:35:37.008306Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T14:35:37.026532Z  WARN daemon_server: turborepo_lib::commands::daemon: daemon already running
+2025-08-05T14:35:37.917375Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\6b76d0ebb9d2e25c-turbo.log.2025-08-05")}
+2025-08-05T14:35:37.917435Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-08-05T14:35:39.016899Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web"), AnchoredSystemPathBuf("apps\\web\\vite.config.ts.timestamp-1754404538960-378e2218dd629.mjs")}
+2025-08-05T14:35:39.016947Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@scholar-ai/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-08-05T14:35:39.508882Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\gcp-clients"), AnchoredSystemPathBuf("packages\\gcp-clients\\tsup.config.bundled_ypgycaxy688.mjs"), AnchoredSystemPathBuf("packages\\shared"), AnchoredSystemPathBuf("packages\\shared\\tsup.config.bundled_yhd2rq3ujpj.mjs")}
+2025-08-05T14:35:39.508936Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@scholar-ai/gcp-clients"), path: AnchoredSystemPathBuf("packages\\gcp-clients") }, WorkspacePackage { name: Other("@scholar-ai/shared"), path: AnchoredSystemPathBuf("packages\\shared") }}))
+2025-08-05T14:35:40.903253Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\shared\\dist"), AnchoredSystemPathBuf("packages\\gcp-clients\\dist")}
+2025-08-05T14:35:40.903297Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@scholar-ai/gcp-clients"), path: AnchoredSystemPathBuf("packages\\gcp-clients") }, WorkspacePackage { name: Other("@scholar-ai/shared"), path: AnchoredSystemPathBuf("packages\\shared") }}))
+2025-08-05T14:35:40.958219Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-08-05T14:35:40.958302Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-08-05T14:35:44.419498Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\shared\\dist")}
+2025-08-05T14:35:44.419553Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@scholar-ai/shared"), path: AnchoredSystemPathBuf("packages\\shared") }}))
+2025-08-05T14:35:44.535362Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-08-05T14:35:50.114919Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\gcp-clients\\dist")}
+2025-08-05T14:35:50.115050Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@scholar-ai/gcp-clients"), path: AnchoredSystemPathBuf("packages\\gcp-clients") }}))
+2025-08-05T14:35:50.252689Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun

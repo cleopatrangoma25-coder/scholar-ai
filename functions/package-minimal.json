@@ -1,0 +1,20 @@
+{
+  "name": "functions",
+  "version": "0.1.0",
+  "private": true,
+  "main": "lib/ultra-minimal.js",
+  "scripts": {
+    "build": "tsc",
+    "deploy": "firebase deploy --only functions"
+  },
+  "engines": {
+    "node": "20"
+  },
+  "dependencies": {
+    "firebase-functions": "^6.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "typescript": "^5.3.3"
+  }
+} 
