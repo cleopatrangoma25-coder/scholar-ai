@@ -1,19 +1,27 @@
 import React, { useState } from 'react';
+import { searchDocumentsAI } from '../../frontend-api-config';
 
 interface SearchResult {
   id: string;
   title: string;
-  text: string;
+  filename: string;
   score: number;
-  source: string;
-  date: string;
-  highlights: string[];
+  summary: string;
+  uploadDate: string;
+  type: string;
+  tags: string[];
+  status: string;
+  size: number;
+  matchDetails: string[];
+  aiInsights: string[];
+  relevance: string;
+  confidence: number;
 }
 
 const AdvancedSearch: React.FC = () => {
   // const { user } = useAuth(); // Will be used for user-specific features
   const [query, setQuery] = useState('');
-  const [searchType, setSearchType] = useState<'semantic' | 'keyword' | 'hybrid'>('semantic');
+  const [searchType, setSearchType] = useState<'semantic' | 'keyword' | 'hybrid' | 'ai_enhanced'>('ai_enhanced');
   const [filters, setFilters] = useState({
     dateRange: 'all',
     documentType: 'all',
@@ -60,43 +68,28 @@ const AdvancedSearch: React.FC = () => {
     setSearching(true);
     
     try {
-      // Call your real RAG engine backend
-      const response = await fetch(`https://enhancedsearch-s5ngwgzmiq-uc.a.run.app`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          query: query,
-          searchType: searchType,
-          filters: filters,
-          userId: 'demo-user' // Will be replaced with real user ID
-        })
-      });
+      // Use the new AI-powered search function
+      const searchResults = await searchDocumentsAI(query, searchType, filters);
       
-      if (!response.ok) {
-        throw new Error(`Search failed: ${response.statusText}`);
+      if (searchResults.success && searchResults.results) {
+        setResults(searchResults.results);
+        console.log('AI Search Results:', searchResults);
+      } else {
+        throw new Error('Search returned no results');
       }
       
-      const searchResults = await response.json();
-      setResults(searchResults.results || []);
-      
     } catch (error) {
-      console.error('Search error:', error);
+      console.error('AI Search error:', error);
       
       // Fallback to mock results for now
       const filteredResults = mockResults.filter(result =>
-        result.title.toLowerCase().includes(query.toLowerCase()) ||
-        result.text.toLowerCase().includes(query.toLowerCase()) ||
-        result.highlights.some(highlight => 
-          highlight.toLowerCase().includes(query.toLowerCase())
-        )
+        result.title.toLowerCase().includes(query.toLowerCase())
       );
       
       setResults(filteredResults);
       
       // Show error message
-      alert(`Search error: ${error instanceof Error ? error.message : 'Unknown error'}. Using demo results.`);
+      alert(`AI Search error: ${error instanceof Error ? error.message : 'Unknown error'}. Using demo results.`);
     } finally {
       setSearching(false);
     }
